@@ -1,0 +1,26 @@
+{
+  "proxies": [""],
+  "proxyON": false,
+  "bots": {
+    "1": {
+      "username": "",
+      "password": "",
+      "botname": "",
+      "identitySecret": "",
+      "sharedSecret": ""
+    }
+  },
+  "options": {
+    "sql": {
+      "host": "localhost",
+      "username": "root",
+      "password": "",
+      "database": ""
+    },
+    "appid": "730",
+    "acceptRandomFriendRequests": false,
+    "priceRefreshInterval": 3600,
+    "confirmationInterval": 5000,
+    "minDeposit": 3
+  }
+}

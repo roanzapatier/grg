@@ -1,0 +1,105 @@
+@import url("//fonts.googleapis.com/css?family=Poiret+One");
+html {
+  min-height: 100%;
+}
+#roulette-container {
+  margin-top: 25px;
+  overflow: hidden;
+  border: 1px solid #000;
+  -webkit-box-shadow: 3px 3px 50px 0 #2b2b2b;
+  box-shadow: 3px 3px 20px 0 #2b2b2b;
+}
+#roulette-container-background {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: sparkle 1500ms linear infinite;
+  -moz-animation: sparkle 1500ms linear infinite;
+  -o-animation: sparkle 1500ms linear infinite;
+  animation: sparkle 1500ms linear infinite;
+  opacity: 0.05;
+}
+#roulette-images {
+  height: 82px;
+}
+#roulette-images ul {
+  position: absolute;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+#roulette-images ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 4px;
+}
+#roulette-images ul li img {
+  min-width: 80px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.roulette-indicator {
+  position: absolute;
+  left: 50%;
+  margin: 0;
+  width: 1px;
+  height: 82px;
+  background-color: #fff;
+  z-index: 1;
+  background-image: url("../images/pointer.png");
+}
+.input-section {
+  margin-top: 50px;
+}
+
+
+  .fadeIn {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.ambiance-gray {
+  background-color: #74797A;
+  color: black;
+  border-radius: 5px;
+  -moz-border-radius: 5px; /* Firefox 3.6 and earlier. */
+  padding: 10px;
+  margin: 10px;
+}
